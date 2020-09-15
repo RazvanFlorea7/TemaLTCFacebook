@@ -1,0 +1,100 @@
+#profileMenu{
+    width: 20vw;
+    height: 100vmax;
+    padding: 0;
+    margin: 0;
+    min-width: 171px;
+    padding-top: 5px;
+    padding-right: 10px;;
+    border-right: 2px solid #000;
+    background: white;
+    float: left;
+}
+#profile{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center; 
+    width: max-content;
+    max-width: 90%;
+    padding: 0;
+    height: fit-content;
+    background: #ededea;
+    border-left: none;
+    border-radius:0 20px 20px 0;
+    margin-top: 5px;
+    padding-top: 3px;
+}
+#profile img{
+    width: 50px;
+    border-radius:100px;
+    border: 3px solid #0a54ae;
+    margin-left: 20px;
+}
+.name{
+    text-decoration: none;
+    color: black;
+    float: left;
+    margin-left: 10px;
+    font-weight: 550;
+    font-size: 1.2em;
+    margin-right: 10px;
+}
+#menu a{
+    text-decoration: none;
+    color: black;
+}
+#menu{
+    list-style: none;
+}
+#menu li{
+    text-decoration: none;
+    color: black;
+    font-weight: 400;
+    padding:7px;
+}
+#menu li:hover, #menu a:hover{
+    color: #0a54ae;
+    transform: scale(1.1);
+    transition-duration: 0.2s;
+}
+#explore h1, p{
+    padding: 15px;
+    margin: 0;
+}
+#exploreList{
+    list-style: none;
+    line-height: 2em;
+}
+#explore a{
+    text-decoration: none;
+    color: black;   
+}
+#explore a[href="#seemore"]{
+    color:gray;
+}
+#exploreList a:hover{
+    color:#0a54ae;
+    transition-duration: 0.2s;
+}
+#exploreList li:hover{
+    padding-left: 5px;
+    transition-duration: 0.2s;
+}
+@media screen and (max-width: 750px){
+    #profile div{
+        margin: 0;
+
+    }
+    #profileMenu{
+        padding-right: 5px;
+    }
+}
+#profileList{
+    border-bottom: 1px solid #000;
+}
+
+
+
+
+

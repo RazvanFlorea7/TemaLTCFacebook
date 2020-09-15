@@ -1,0 +1,38 @@
+#contactList{
+    width: 26vw;
+    height: 100vmax;
+    float: left;
+    padding:10px;
+    background:white;
+    border-radius: 20px;
+    margin-top: 5px;
+}
+.contact{
+    display:flex;
+    justify-content: left;
+    align-items: center;
+    padding: 10px 10px 5px 10px;
+    background: #ededea;
+    border-bottom: 2px solid #d1cfcb;
+    width: 24vw;
+}
+.contact:nth-child(2){
+    border-radius: 10px 10px 0 0;
+}
+.contact:last-child{
+    border-radius: 0 0 10px 10px;
+    border: none;
+}
+.contact h4{
+    margin: 0px 10px;
+}
+#contactPhoto{
+    height: fit-content;
+}
+#contactPhoto img{
+    width: 40px;
+    border-radius: 100px;
+}
+.contact i{
+    justify-content: end;
+}

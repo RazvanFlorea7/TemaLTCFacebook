@@ -1,0 +1,65 @@
+
+#navBar{
+    overflow: hidden;
+    background:#1778F2;
+    border-bottom: 3px solid black;
+    top: 0;
+}
+#navBar *{
+    margin: 5px;
+}
+#navBar a{
+    text-decoration: none;
+    text-align: center;
+    font-size: 20px;
+    padding: 5px 10px;
+    color: white;
+    display: inline-block;
+    font-weight: 500;
+    background: #1778F2;
+    border-radius: 10px;
+}
+#navBar input[type=text]{
+    float: right;
+    height: 37px;
+    padding: 5px 5px 5px 20px;
+    background: white;
+    border-radius: 100px;
+    border: 4px solid #0a54ae;
+    width: 300px;
+    margin-right: 50px;
+    font-size: 20px;
+}
+#navBar a:hover{
+    background: #0c5fc6;
+    transition-duration: 0.2s;
+}
+#navBar a.active{
+    background:#0a54ae;
+}
+#logoipsum{
+    display: block;
+    height: 45px;
+    float: left;
+    margin: 0 30px;
+    transform: scale(2);
+}
+@media screen and (max-width:750px){
+    #navBar a, #navBar input[type=text] {
+        float: none;
+        display: block;
+        text-align: left;
+        width: 100%;
+        margin: 0;
+        padding: 14px;
+      }
+      #navBar img {
+        float: none;
+        display: block;
+        text-align: left;
+        margin: 0;
+        padding: 5px;
+        padding-left: 10px;
+      }
+    
+}
